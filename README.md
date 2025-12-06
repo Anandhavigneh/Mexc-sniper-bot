@@ -1,4 +1,4 @@
-##MEXC Scheduled Sniper Bot
+## MEXC Scheduled Sniper Bot
 
 A fully automated, Telegram-controlled sniper system engineered for ultra-fast execution of MEXC token listings. This bot is designed for traders who require precision timing, responsive controls, remote access, and complete visibility into bot operations.
 
