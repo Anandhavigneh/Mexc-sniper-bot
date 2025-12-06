@@ -1,4 +1,4 @@
-## MEXC Scheduled Sniper Bot
+# MEXC Scheduled Sniper Bot
 
 A fully automated, Telegram-controlled sniper system engineered for ultra-fast execution of MEXC token listings. This bot is designed for traders who require precision timing, responsive controls, remote access, and complete visibility into bot operations.
 
@@ -34,7 +34,7 @@ Limitations & Recommendations
 
 Disclaimer
 
-# 1. Introduction
+## 1. Introduction
 
 This project provides a Python-based sniper bot that integrates directly with the MEXC exchange. It supports two primary modes of operation:
 
@@ -46,7 +46,7 @@ A complete Telegram interface is included, enabling remote control, parameter ch
 
 This bot is intended for users who want automation without sacrificing configurability and control.
 
-# 2. Features
+## 2. Features
 Core Sniping Capabilities
 
 Scheduled timestamp execution to match official listing announcements.
@@ -99,7 +99,7 @@ Trade storage in JSON for long-term record keeping.
 
 Supports up to 3 concurrent trades.
 
-# 3. System Architecture
+## 3. System Architecture
 
 The bot consists of several coordinated layers:
 
@@ -155,7 +155,7 @@ Check server time
 
 This architecture ensures separation of concerns and robustness.
 
-# 4. Telegram User Interface
+## 4. Telegram User Interface
 
 The Telegram bot is designed for operational simplicity while offering complete depth of control.
 Key UI components include:
@@ -174,25 +174,32 @@ Real-time display of current parameters and active trades
 
 This makes the bot usable entirely from a mobile device without needing a terminal.
 
-# 5. Screenshots
-Main Menu
+## 5. Screenshots
+### Main Menu
 
 Shows the full dashboard including Start Bot, Stop Bot, Balance, Status, Config, Trades, Settings, Target Coin, Help.
 
+
 <img width="1221" height="966" alt="Image" src="https://github.com/user-attachments/assets/8f8c3c49-e948-44a2-991f-455086b8b925" />
 
-Coin Selection & Watching Confirmation
+### Coin Selection & Watching Confirmation
 
 The bot begins monitoring the selected trading pair for live market activation.
+
+ 
 <img width="1237" height="963" alt="Image" src="https://github.com/user-attachments/assets/f3949832-02d4-4087-907d-8ceca439acc8" />
 
-Sniper Bot Activation Summary
+### Sniper Bot Activation Summary
 
 Displays session start balance, margin, TP/SL settings, selected target coin, and synchronized timestamps.
+
+
 <img width="1241" height="956" alt="Image" src="https://github.com/user-attachments/assets/2487f237-196b-4b87-9c2d-57a3f7eff773" />
+
+
 <img width="1242" height="979" alt="Image" src="https://github.com/user-attachments/assets/aa81fd83-3c65-4478-ab72-fe608285dddc" />
 
-# 6. Detailed Functional Explanation
+## 6. Detailed Functional Explanation
 6.1 Target Selection
 
 User sets coin through Telegram (/set coin SYMBOL).
@@ -249,7 +256,7 @@ Session summary when bot stops
 
 This ensures full traceability of actions.
 
-# 7. Configuration (config.json)
+## 7. Configuration (config.json)
 
 Example values taken from your project:
 
@@ -283,7 +290,7 @@ listing_time	Scheduled sniping trigger time
 estimated_price	Fallback entry price
 instant_entry	Enables buying even if ticker isn't yet available
 max_jump_pct	Allowed price deviation jump
-# 8. Installation
+## 8. Installation
 Step 1. Clone Repository
 git clone https://github.com/yourname/mexc-sniper-bot.git
 
@@ -297,7 +304,7 @@ Update config.json.
 Step 4. Start the Bot
 python sm.py
 
-# 9. Usage
+## 9. Usage
 Basic Commands
 Command	Description
 /menu	Opens the main control dashboard
@@ -313,7 +320,7 @@ Command	Description
 /set margin X	Set margin allocation
 /clear	Clears active target
 
-# 10. Trade Engine Logic
+## 10. Trade Engine Logic
 Buy Order Logic
 
 Calculates amount based on margin and price.
@@ -356,7 +363,7 @@ Reason for closing
 
 Timestamp
 
-# 11. Risk Management Model
+## 11. Risk Management Model
 
 The bot uses:
 
@@ -372,7 +379,7 @@ Maximum allowed simultaneous trades
 
 Users must choose settings appropriate to their strategy.
 
-# 12. Data Persistence
+## 12. Data Persistence
 trade_history.json
 
 Stores historical trades.
@@ -382,13 +389,13 @@ config.json
 
 Persistently stores user parameters across sessions.
 
-# 13. Project Structure
+## 13. Project Structure
 sm.py                  # Main bot file
 config.json            # User configuration & API keys
 trade_history.json     # Historical trade log
 README.md              # Documentation
 
-# 14. Limitations & Recommendations
+## 14. Limitations & Recommendations
 
 Requires stable network to sync with MEXC servers.
 
@@ -400,7 +407,7 @@ Running too close to listing time may reduce precision.
 
 Use small capital for testing to validate risk model.
 
-## 15. Disclaimer
+# 15. Disclaimer
 
 Automated trading involves financial risk.
 This bot executes real trades and should only be run if you understand the consequences.
