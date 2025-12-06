@@ -1,0 +1,38 @@
+[
+    {
+        "symbol": "OTK/USDT",
+        "entry_price": 0.007904,
+        "exit_price": 0.007239,
+        "pl_pct": -8.41,
+        "pl_usdt": -0.13,
+        "reason": "TSL Hit (Peak: 1.6%, Now: -8.4%)",
+        "timestamp": "2025-05-27 19:01:42"
+    },
+    {
+        "symbol": "OGPU/USDT",
+        "entry_price": 0.3252,
+        "exit_price": 0.2805,
+        "pl_pct": -13.75,
+        "pl_usdt": -0.39,
+        "reason": "Initial Stop-Loss",
+        "timestamp": "2025-05-28 16:30:21"
+    },
+    {
+        "symbol": "TBA/USDT",
+        "entry_price": 0.001624,
+        "exit_price": 0.001539,
+        "pl_pct": -5.23,
+        "pl_usdt": -0.1,
+        "reason": "TSL Hit (Peak: 8.6%, Now: -5.2%)",
+        "timestamp": "2025-07-15 12:31:14"
+    },
+    {
+        "symbol": "TBA/USDT",
+        "entry_price": 0.00185,
+        "exit_price": 0.001704,
+        "pl_pct": -7.89,
+        "pl_usdt": -0.29,
+        "reason": "TSL Hit (Peak: 2.2%, Now: -7.9%)",
+        "timestamp": "2025-07-15 12:47:22"
+    }
+]

@@ -1,0 +1,20 @@
+{
+    "mexc": {
+        "api_key": "mx0vgl0lCHLMkod2Ak",
+        "api_secret": "c2e7602e41654282a5aff8b8a4c16b46"
+    },
+    "telegram": {
+        "token": "7992435639:AAGqtJphKPiVhQGYJqhj-kfPVK6-x0YCUMs",
+        "chat_id": "1151193863"
+    },
+    "parameters": {
+        "tp": 200.0,
+        "sl": 10,
+        "margin": 100,
+        "listing_time": "12:30",
+        "estimated_price": 0.005,
+        "instant_entry": true,
+        "max_jump_pct": 20
+    },
+    "target_symbol": "TBA/USDT"
+}

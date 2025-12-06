@@ -1,0 +1,9 @@
+0YCUMs/getUpdates "HTTP/1.1 200 OK"
+2025-05-27 19:29:56,960 - INFO - HTTP Request: POST https://api.telegram.org/bot7992435639:AAGqtJphKPiVhQGYJqhj-kfPVK6-x0YCUMs/getUpdates "HTTP/1.1 200 OK"
+2025-05-27 19:29:59,999 - INFO - ⏱️ Time reached! Starting sniper for SILO/USDT
+2025-05-27 19:30:01,820 - INFO - Time synchronized with MEXC server. Offset: -1319ms
+2025-05-27 19:30:02,123 - INFO - ⚡ INSTANT ENTRY ENABLED: Fallback price used without waiting
+2025-05-27 19:30:02,123 - ERROR - Sniper error: 'float' object cannot be interpreted as an integer
+2025-05-27 19:30:03,212 - INFO - HTTP Request: POST https://api.telegram.org/bot7992435639:AAGqtJphKPiVhQGYJqhj-kfPVK6-x0YCUMs/sendMessage "HTTP/1.1 200 OK"
+2025-05-27 19:30:03,213 - INFO - Signal sent: ❌ Sniper error: 'float' object cannot be interpreted as an integer
+2025-05-27 19:30:07,192 - INFO - HTTP Request: POST https://api.telegram.org/bot7992435639:AAGqtJphKPiVhQGYJqhj-kfPVK6-x0YCUMs/getUpdates "HTTP/1.1 200 OK"
